@@ -332,4 +332,32 @@ footer a{
         margin-top: auto;
     }
 
+    .scolaire{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        background-size: cover;
+    }
+
+    .univ{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        width: auto;
+    }
+
+    .lycee{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        width: auto;
+    }
 }
