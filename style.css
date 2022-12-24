@@ -314,7 +314,7 @@ footer a{
         justify-content: center;
         align-items: center;
         padding-right: auto;
-        padding-left: auto;
+        padding-left: 0;
         margin-left: auto;
         margin-right: auto;
     }
