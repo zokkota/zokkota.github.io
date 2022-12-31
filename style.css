@@ -625,7 +625,7 @@ footer a{
     }
 
     .competences{
-        height: fit-content;
+        height: 800px;
         background: #101010;
         margin-bottom: 50px;
         padding-bottom: 50px;
