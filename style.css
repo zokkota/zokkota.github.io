@@ -624,6 +624,13 @@ footer a{
         width: auto;
     }
 
+    .competences{
+        height: fit-content;
+        background: #101010;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
     .expTitle{
         text-align: center;
     }
