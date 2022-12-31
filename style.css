@@ -407,10 +407,9 @@ footer a{
 
 .competences{
     background-size: cover;
-    height: auto;
+    height: fit-content;
     background: #101010;
     margin-bottom: 50px;
-    padding-bottom: 50px;
 }
 
 .slider {
@@ -484,7 +483,6 @@ footer a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    line-height: 150px;
 }
 
 .image1{
@@ -500,8 +498,6 @@ footer a{
 }
 
 .java{
-    grid-column: 1;
-    grid-row: 1;
     width: 150px;
 }
 
@@ -625,10 +621,24 @@ footer a{
     }
 
     .competences{
-        height: 800px;
-        background: #101010;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        width: auto;
+    }
+
+    .image1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: auto;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .expTitle{
@@ -646,4 +656,45 @@ footer a{
     .divtitle{
         text-align: center;
     }
+
+    .java{
+        width: 70px;
+    }
+    
+    .html-css{
+        width: 70px;
+    }
+    
+    .js{
+        width: 70px;
+    }
+    
+    .c{
+        width: 70px;
+    }
+    
+    .psql{
+        width: 70px;
+    }
+    
+    .Csharp{
+        width: 70px;
+    }
+    
+    .py{
+        width: 70px;
+    }
+    
+    .react{
+        width: 70px;
+    }
+    
+    .discord{
+        width: 70px;
+    }
+    
+    .node{
+        width: 70px;
+    }
+
 }
