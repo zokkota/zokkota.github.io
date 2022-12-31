@@ -476,6 +476,10 @@ footer a{
     left: 1rem;
 }
 
+.image{
+    display: flex;
+}
+
 .image1{
     display: flex;
     flex-direction: column;
@@ -622,6 +626,14 @@ footer a{
         width: auto;
     }
 
+    .competences{
+        height: fit-content;
+    }
+
+    .image{
+        display: block;
+    }
+
     .image1{
         flex-direction: row;
     }
@@ -647,7 +659,7 @@ footer a{
     }
 
     .suivant, .precedent{
-        top: 90%;
+        top: 95%;
     }
 
 }
