@@ -407,7 +407,7 @@ footer a{
 
 .competences{
     background-size: cover;
-    height: fit-content;
+    height: auto;
     background: #101010;
     margin-bottom: 50px;
 }
@@ -448,12 +448,9 @@ footer a{
 }
 
 .slider a {
-    object-fit: cover;
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
     opacity: 0;
     transition: opacity .5s;
 }
@@ -477,12 +474,6 @@ footer a{
 
 .precedent {
     left: 1rem;
-}
-
-.image{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .image1{
@@ -632,13 +623,11 @@ footer a{
     }
 
     .image1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: auto;
-        padding-left: 0;
-        margin-left: auto;
-        margin-right: auto;
+        flex-direction: row;
+    }
+
+    .img2{
+        flex-direction: row;
     }
 
     .expTitle{
@@ -657,44 +646,8 @@ footer a{
         text-align: center;
     }
 
-    .java{
-        width: 70px;
-    }
-    
-    .html-css{
-        width: 70px;
-    }
-    
-    .js{
-        width: 70px;
-    }
-    
-    .c{
-        width: 70px;
-    }
-    
-    .psql{
-        width: 70px;
-    }
-    
-    .Csharp{
-        width: 70px;
-    }
-    
-    .py{
-        width: 70px;
-    }
-    
-    .react{
-        width: 70px;
-    }
-    
-    .discord{
-        width: 70px;
-    }
-    
-    .node{
-        width: 70px;
+    .suivant, .precedent{
+        top: 90%;
     }
 
 }
