@@ -616,30 +616,7 @@ footer a{
     }
 
     .competences{
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: auto;
-        padding-right: auto;
-        height: auto;
-        display: block;
-        justify-content: center;
-        width: auto;
-    }
-
-    .competences{
-        height: fit-content;
-    }
-
-    .image{
-        display: block;
-    }
-
-    .image1{
-        flex-direction: row;
-    }
-
-    .img2{
-        flex-direction: row;
+        height: 110vh;
     }
 
     .expTitle{
@@ -659,7 +636,6 @@ footer a{
     }
 
     .suivant, .precedent{
-        top: 95%;
+        top: 130%;
     }
-
 }
