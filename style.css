@@ -1,6 +1,5 @@
 *{
     margin: auto;
-    padding: auto;
 }
 
 body{
@@ -483,46 +482,72 @@ footer a{
 
 .image{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 150px;
+}
+
+.image1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.img2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
 }
 
 .java{
+    grid-column: 1;
+    grid-row: 1;
     width: 150px;
 }
 
 .html-css{
-    width: 150px;
+    padding-top: 20px;
+    width: 100px;
 }
 
 .js{
-    width: 150px;
+    padding-top: 20px;
+    width: 100px;
 }
 
 .c{
-    width: 150px;
+    padding-top: 20px;
+    width: 100px;
 }
 
 .psql{
+    margin-top: 20px;
     background: #f1f1f1;
-    width: 150px;   
+    width: 200px;   
 }
 
 .Csharp{
-    width: 150px;
+    width: 100px;
 }
 
 .py{
+    padding-top: 20px;
     width: 150px; 
 }
 
 .react{
+    padding-top: 20px;
     width: 150px; 
 }
 
 .discord{
+    margin-top: 20px;
     width: 150px; 
+    background: #f1f1f1;
 }
 
 .node{
+    padding-top: 20px;
     width: 150px;  
 }
 
@@ -599,4 +624,19 @@ footer a{
         width: auto;
     }
 
+    .expTitle{
+        text-align: center;
+    }
+
+    .progtitle{
+        text-align: center;
+    }
+
+    .langtitle{
+        text-align: center;
+    }
+
+    .divtitle{
+        text-align: center;
+    }
 }
