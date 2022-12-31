@@ -342,6 +342,188 @@ footer a{
     text-align: center;
 }
 
+.expTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.expPro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.elect{
+    margin-top: 50px;
+    display: block;
+    background-color: #101010;
+    width: 400px;
+    height: 250px;
+    line-height: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.07)
+}
+
+.dateElect{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.logosFlamand{
+    padding-top: 20px;
+    background-color: transparent;
+    width: 200px;
+    float: top;
+    display: flex;
+    cursor: pointer;
+}
+
+.electName{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.electDesc{
+    color: grey;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.competences{
+    background-size: cover;
+    height: auto;
+    background: #101010;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.slider {
+    height: 80vh;
+    position: relative;
+}
+
+.progtitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.langtitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.divtitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.slider a {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.slider a.active {
+    opacity: 1;
+}
+
+.suivant, .precedent {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.suivant {
+    right: 1rem;
+}
+
+.precedent {
+    left: 1rem;
+}
+
+.image{
+    display: flex;
+}
+
+.java{
+    width: 150px;
+}
+
+.html-css{
+    width: 150px;
+}
+
+.js{
+    width: 150px;
+}
+
+.c{
+    width: 150px;
+}
+
+.psql{
+    background: #f1f1f1;
+    width: 150px;   
+}
+
+.Csharp{
+    width: 150px;
+}
+
+.py{
+    width: 150px; 
+}
+
+.react{
+    width: 150px; 
+}
+
+.discord{
+    width: 150px; 
+}
+
+.node{
+    width: 150px;  
+}
 
 @media screen and (max-width: 1199px) {
     .about{

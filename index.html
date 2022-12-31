@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Franos Théo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,9 +16,9 @@
             <a href="about">HOME</a>
             <a href="index.html#about">QUI SUIS-JE</a>
             <a href="index.html#parcours">PARCOURS</a>
-            <a href="#">COMPETENCES</a>
-            <a href="#">PROJETS</a>
-            <a href="#">CONTACT</a>
+            <a href="index.html#competences">COMPETENCES</a>
+            <a href="index.html#projet">PROJETS</a>
+            <a href="index.html#contact">CONTACT</a>
         </nav>
 
         <button type="button" aria-label="menu" class="nav-toggler">
@@ -66,7 +67,7 @@
         <h1 class="ParcoursTitle">PARCOURS</h1>
         <div class="scolaire">
             <div class="univ">
-                <a class="dateUniv"> 2021-Aujoud'hui</a>
+                <a class="dateUniv"> 2021 - Aujoud'hui</a>
                 <a href="https://www.iut-a.univ-lille.fr/" target="_blank">
                     <img class="logolille" src="images/logo/Logo-sans-baseline-Horizontal-RVB-Blanc.png"/>
                 </a>
@@ -74,7 +75,7 @@
                 <a class="descUniv"></a>
             </div>
             <div class="lycee">
-                <a class="dateLy">2018-2021</a>
+                <a class="dateLy">2018 - 2021</a>
                 <a href="https://www.groupedelasalle-reims.com/" target="_blank">
                     <img class="logosjbs" src="images/logo/sjbs.jpg"/>
                 </a>
@@ -83,7 +84,7 @@
             </div>
             
             <div class="college">
-            <a class="dateCol">2015-2018</a>
+            <a class="dateCol">2015 - 2018</a>
                 <a href="https://www.saintemacre.fr/" target="_blank">
                     <img class="logoSteMacre" src="images/logo/sainte-macre-logo-blanc-gradiant.jpg"/>
                 </a>
@@ -93,14 +94,66 @@
 
         </div>
 
+        <h1 class="expTitle">EXPERIENCE PROFESSIONEL</h1>
         <div class="expPro">
             <div class="elect">
                 <a class="dateElect">Aout 2022 - Aout 2022</a>
-                <a class="electName">Aide Electricien</a>
-                <a class="electDesc"> Job d'été</a>
+                <a href="https://www.flamand-elec.fr/" target="_blank">
+                    <img class="logoFlamand" src="images/logo/Flamand.png">
+                </a>
+                <a class="electName">Assistant Electricien</a>
+                <a class="electDesc"> Job d'été <br> le travail consistait à assister les électriciens dans leurs tâches (branchement prise, passage de câbles, ect...)</a>
             </div>
         </div>
         
+    </section>
+
+    <section class="competences" id="competences">
+        <div class="slider">
+            <div class="prog">
+                <a class="text active">
+                    <h1 class="progtitle">COMPETENCES PROGRAMATION</h1>
+                    <div class="image">
+                        <div class="img1">
+                            <img class="java" src="images/prog/java.png">
+                            <img class="html-css" src="images/prog/html css.png">
+                            <img class="js" src="images/prog/js.png">
+                            <img class="c" src="images/prog/c.png">
+                            <img class="psql" src="images/prog/psql.png">
+                    </div>
+                        <div class="img2">
+                            <img class="Csharp" src="images/prog/csharp.png">
+                            <img class="py" src="images/prog/py.png">
+                            <img class="react" src="images/prog/react.png">
+                            <img class="discord" src="images/prog/discord.png">
+                            <img class="node" src="images/prog/node.png">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="langue">
+                <a class="text">
+                    <h1 class="langtitle">COMPETENCES LINGUISTIQUE</h1>
+                </a>
+            </div>
+
+            <div class="divers">
+                <a class="text">
+                    <h1 class="divtitle">AUTRE COMPETENCES</h1>
+                </a>  
+            </div>
+
+            <div class="suivant">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+
+            <div class="precedent">
+                <i class="fas fa-chevron-circle-left"></i>
+            </div>
+        </div>
+            
+
     </section>
     
     <footer>
