@@ -620,8 +620,6 @@ button > a{
 }
 
 
-
-
 @media screen and (max-width: 1199px) {
     .about{
         margin-left: auto;
@@ -696,7 +694,11 @@ button > a{
     }
 
     .competences{
-        height: 130vh;
+        height: 100%;
+    }
+
+    .image1, .img2{
+        width: 100%;
     }
 
     .expTitle{
@@ -716,7 +718,19 @@ button > a{
     }
 
     .suivant, .precedent{
-        top: 130%;
+        top: 5%
     }
 
+    .logoprojet{
+        width: 100%;
+    }
+
+
+
+    .btnProjet{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
 }
