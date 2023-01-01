@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-image: url(images/pp/Sans\ titre.png);
+    background-image: url(images/Developpeur-web.jpg);
     background-size: cover;
 }
 
@@ -573,6 +573,54 @@ footer a{
     display: flex;
     flex-direction: column;
 }
+
+.projets{
+    background-size: cover;
+    background: #101010;
+    margin-bottom: 50px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetTitle{
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.btnProjet{
+    display: flex;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 3rem;
+    margin-top: 20px;
+    border-color: red;
+}
+
+button > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logoprojet{
+    display: flex;
+    width: 400px;
+}
+
+.rigolos, .bifrost, .escapeGame, .tutorat, .botDD{
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.07);
+    margin-bottom: 50px;
+}
+
+
+
 
 @media screen and (max-width: 1199px) {
     .about{
