@@ -7,10 +7,9 @@ body{
     background-size: cover;
 }
 
-.rigolosback{
-    width: 60vw;
-    display: flex;
-
+header{
+    background-color: #101010;
+    background-size: cover;
 }
 
 footer{
@@ -20,6 +19,7 @@ footer{
 
 .anim{
     height: 50vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,13 +147,13 @@ nav a {
     font-family: Arial;
 }
 
-.tete{
+.accueil{
     margin-top: 50px;
     display: flex;
     width: 700;
 }
 
-.bouche{
+.contact{
     margin-top: 50px;
     display: flex;
     width: 700;
@@ -180,11 +180,7 @@ nav a {
     display: flex;
 }
 
-.java{
-    width: 400px;
-}
-
-.git{
+.HTML{
     width: 400px;
 }
 
@@ -238,11 +234,11 @@ button > a{
         width: 50%;
     }
 
-    .bouche, .tete{
+    .accueil, .contact{
         width: 50%;
     }
 
-    .java, .git{
+    .HTML{
         width: 40%;
     }
 

@@ -5,10 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cauchemar à l'IUT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleEscapegame.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="index.html#projets">HOME</a>
+            <a href="projetEscapegame.html">DESCRIPTION</a>
+            <a href="projetEscapegame.html#competences">COMPETENCES (MISE EN PLACE ET ACQUISE)</a>
+        </nav>
+
+        <button type="button" aria-label="menu" class="nav-toggler">
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+        </button>
+
+        <p class="nom"> TF</p>
+
+        <a class="anim"></a>
+
+    </header>
+
+    <section class="desc" id="desc">
+        <h1 class="descTitle">DESCRIPTION</h1>
+        <a class="descProj"> C'est un projet realisé sur Genially en 1ere année de BUT. <br> <br> Le projet avait pour but de nous faire travailler la gestion d'un projet en groupe et donc travailler sur la gestion des équipes et l'organisation.
+            <br> <br> Le projet prend la forme d'un escape Game avec plusieurs fin, le thème est une notion d'informatique vu lors de la première année de BUT et était destiné pour les premières années pour les faire jouer sur leurs connaissances vu en cours.
+        </a>
+
+        <img src="images/escapegame/debut.PNG" class="debut">
+        <img src="images/escapegame/enigme.PNG" class="enigme">
+        <img src="images/escapegame/fin.PNG" class="fin">
+        <button class="github" type="button">
+            <a href="https://view.genial.ly/628621e7dde3390018830020/interactive-content-cauchemar-a-liut" target="_blank" class="text">CODE SOURCE PROJET</a>
+        </button>
+        <button class="trailer" type="button">
+            <a href="https://youtu.be/z_DJh64jtm8" class="text" target="_blank">Trailer Vidéo du jeu</a>
+        </button>
+
+    </section>
+
+    <section class="competences" id="competences">
+        <h1 class="compTitle">COMPETENCES MIS EN OEUVRES</h1>
+        <div class="utilise">
+            <img class="genially" src="images/prog/genially.jpg"/>
+        </div>
+        <h1 class="compTitle"> COMPETENCES ACQUISES</h1>
+        <div class="liste">
+            <ul>Gestion d'équipe</ul>
+            <ul>Travail en équipe</ul>
+        </div>
+    </section>
+
 </body>
+<footer>
+    <a class="retour" href="index.html#projets">
+        <i class="fa-solid fa-turn-down-left">RETOUR</i>
+    </a>
+</footer>
 <script src="app.js"></script>
 </html>

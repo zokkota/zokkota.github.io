@@ -5,10 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorat</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleTutorat.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="index.html#projets">HOME</a>
+            <a href="projetTutorat.html">DESCRIPTION</a>
+            <a href="projetTutorat.html#competences">COMPETENCES (MISE EN PLACE ET ACQUISE)</a>
+        </nav>
+
+        <button type="button" aria-label="menu" class="nav-toggler">
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+        </button>
+
+        <p class="nom"> TF</p>
+
+        <a class="anim"></a>
+
+    </header>
+
+    <section class="desc" id="desc">
+        <h1 class="descTitle">DESCRIPTION</h1>
+        <a class="descProj">
+            Projet réalisé en première année de BUT par groupe de 3 personnes.
+            <br> <br> Le projet consistait à concevoir une application qui gére des affectations d'étudiants à des tutorats dans des matières spécifiques selon leurs notes, leurs motivations, leurs absences, ect... 
+
+        </a>
+        <img class="tete" src="images/tutorat/app.PNG"/>
+        <img class="bouche" src="images/tutorat/image.PNG"/>
+        <button class="github" type="button">
+            <a href="https://github.com/zokkota/Application-Tutorat" class="text" target="_blank">CODE SOURCE PROJET</a>
+        </button>
+    </section>
+
+    <section class="competences" id="competences">
+        <h1 class="compTitle">COMPETENCES MIS EN OEUVRES</h1>
+        <div class="utilise">
+            <img class="java" src="images/prog/java.png"/>
+            <img class="git"  src="images/prog/Git.png"/>
+        </div>
+        <h1 class="compTitle"> COMPETENCES ACQUISES</h1>
+        <div class="liste">
+            <ul>Amélioration en Java et Git</ul>
+            <ul>Travail en équipe</ul>
+            <ul>réaliser une interface graphique</ul>
+        </div>
+    </section>
+
 </body>
+<footer>
+    <a class="retour" href="index.html#projets">
+        <i class="fa-solid fa-turn-down-left">RETOUR</i>
+    </a>
+</footer>
 <script src="app.js"></script>
 </html>

@@ -7,10 +7,10 @@ body{
     background-size: cover;
 }
 
-.rigolosback{
-    width: 60vw;
-    display: flex;
-
+header{
+    background-image: url("images/tutorat/background.PNG");
+    background-size: cover;
+    background-position: center;
 }
 
 footer{
@@ -19,11 +19,13 @@ footer{
 }
 
 .anim{
-    height: 50vh;
+    height: 80vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 150px;
+    text-align: center;
+    max-width: 600px;
     font-size: 50px;
     color: white;
 }
@@ -147,13 +149,13 @@ nav a {
     font-family: Arial;
 }
 
-.tete{
+.bouche, .tete{
     margin-top: 50px;
     display: flex;
     width: 700;
 }
 
-.bouche{
+.contact{
     margin-top: 50px;
     display: flex;
     width: 700;
@@ -180,11 +182,7 @@ nav a {
     display: flex;
 }
 
-.java{
-    width: 400px;
-}
-
-.git{
+.HTML{
     width: 400px;
 }
 
@@ -213,7 +211,15 @@ button > a{
     font-size: 20px;
 }
 
-.github{
+.java{
+    width: 400px;
+}
+
+.git{
+    width: 400px;
+}
+
+.github, .trailer{
     display: flex;
     cursor: pointer;
     background-color: transparent;
@@ -238,11 +244,11 @@ button > a{
         width: 50%;
     }
 
-    .bouche, .tete{
-        width: 50%;
+    .debut, .fin, .enigme{
+        width: 90%;
     }
 
-    .java, .git{
+    .HTML{
         width: 40%;
     }
 
