@@ -721,11 +721,13 @@ button > a{
         top: 5%
     }
 
+    .java, .html-css, .js, .c, .psql, .Csharp, .py, .react, .discord, .node{
+        width: 50%;
+    }
+
     .logoprojet{
         width: 100%;
     }
-
-
 
     .btnProjet{
         margin-left: auto;
