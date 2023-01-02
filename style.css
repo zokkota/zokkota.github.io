@@ -13,8 +13,8 @@ header{
 }
 
 footer{
-    background-color: black;
-    height: 20vh;
+    background-color: #101010;
+    height: 10vh;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -618,6 +618,48 @@ button > a{
     margin-bottom: 50px;
 }
 
+.contact{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #101010;
+}
+
+.contactTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.email, .tel{
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.contactDesc{
+    display: flex;
+}
+
+.foot{
+    display: flex;
+}
+
+.github{
+    width: 10vh;
+}
+
+.logoGit{
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1199px) {
     .about{
@@ -734,4 +776,17 @@ button > a{
         margin-bottom: auto;
         margin-top: auto;
     }
+
+    .contact{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .contactDesc{
+        flex-direction: column;
+    }
+
 }
