@@ -407,7 +407,7 @@ footer a{
 
 .competences{
     background-size: cover;
-    height: auto;
+    height: 100%;
     background: #101010;
     margin-bottom: 50px;
 }
@@ -492,53 +492,13 @@ footer a{
     padding-top: 50px;
 }
 
-.java{
-    width: 150px;
-}
-
-.html-css{
-    padding-top: 20px;
-    width: 100px;
-}
-
-.js{
-    padding-top: 20px;
-    width: 100px;
-}
-
-.c{
-    padding-top: 20px;
-    width: 100px;
+.java, .html-css, .js, .c, .psql, .Csharp, .py, .react, .discord, .node, .git{
+    width: 120px;
+    margin-top: 20px;
 }
 
 .psql{
-    margin-top: 20px;
-    background: #f1f1f1;
-    width: 200px;   
-}
-
-.Csharp{
-    width: 100px;
-}
-
-.py{
-    padding-top: 20px;
-    width: 150px; 
-}
-
-.react{
-    padding-top: 20px;
-    width: 150px; 
-}
-
-.git{
-    margin-top: 20px;
-    width: 150px; 
-}
-
-.node{
-    padding-top: 20px;
-    width: 150px;  
+    background-color: white;
 }
 
 .langue{
@@ -735,11 +695,11 @@ button > a{
     }
 
     .competences{
-        height: 100%;
+        height: 120%;
     }
 
     .image1, .img2{
-        width: 100%;
+        width: 30%;
     }
 
     .expTitle{
@@ -762,8 +722,9 @@ button > a{
         top: 5%
     }
 
-    .java, .html-css, .js, .c, .psql, .Csharp, .py, .react, .discord, .node{
-        width: 50%;
+    .java, .html-css, .js, .c, .psql, .Csharp, .py, .react, .discord, .node, .git{
+        width: 100%;
+        height: 200%;
     }
 
     .logoprojet{
