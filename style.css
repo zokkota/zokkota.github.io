@@ -611,13 +611,14 @@ button > a{
 
 .foot{
     display: flex;
+    justify-content: space-between;
 }
 
-.github{
+.github, .linkedin{
     width: 10vh;
 }
 
-.logoGit{
+.logoGit, .logoLink{
     cursor: pointer;
 }
 
