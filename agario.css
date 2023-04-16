@@ -1,0 +1,257 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-color: lightblue;
+    background-size: cover;
+}
+
+.rigolosback{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+footer{
+    position: fixed;
+    bottom: 30px;
+}
+
+.anim{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    font-size: 50px;
+    color: white;
+}
+
+.nom{
+    margin: auto;
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
+.nav-toggler{
+    position: fixed;
+    z-index: 99;
+    top: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease-out,
+    opacity 0.1s ease-out;
+}
+
+.l1 {
+    transform: translateY(-10px);
+}
+.l2{
+    transform: translateY(10px);
+}
+
+.nav-toggler.active .l1{
+    transform: translateY(0px) rotate(135deg);
+}
+
+.nav-toggler.active .l2{
+    opacity: 0;
+}
+
+.nav-toggler.active .l3{
+    transform: translateY(0px) rotate(-135deg);
+}
+
+nav {
+    z-index: 99;
+    position: fixed;
+    width: 100vw;
+    min-height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    transform: translateY(-100%);
+    transition: transform 0.3s cubic-bezier(0.73,0.11,0.67,0.84);
+}
+
+nav.active{
+    transform: translate(0);
+}
+
+nav a {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.desc{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #101010;
+    padding-bottom: 50px;
+}
+
+.descProj{
+    padding-top:60px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.descTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.tete{
+    margin-top: 50px;
+    display: flex;
+    width: 900;
+}
+
+.bouche{
+    margin-top: 50px;
+    display: flex;
+    width: 900;
+}
+
+.competences{
+    background-size: cover;
+    height: auto;
+    background: #101010;
+    margin-bottom: 50px;
+}
+
+.compTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.utilise{
+    display: flex;
+}
+
+.java{
+    width: 400px;
+}
+
+.git{
+    width: 400px;
+}
+
+.liste{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.retour{
+    position: fixed;
+    bottom: 20px;
+    font-size: 1rem;
+    color: red;
+    cursor: pointer;
+}
+
+button > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.github{
+    display: flex;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 3rem;
+    margin-top: 20px;
+    border-color: red;
+}
+
+@media screen and (max-width: 1199px){
+
+    .desc{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .descProj{
+        display: block;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .bouche, .tete{
+        width: 50%;
+    }
+
+    .java, .git{
+        width: 40%;
+    }
+
+    .compTitle{
+        text-align: center;
+    }
+
+    .liste{
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
