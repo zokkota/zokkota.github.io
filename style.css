@@ -493,8 +493,9 @@ footer a{
 }
 
 .java, .html-css, .js, .c, .psql, .Csharp, .py, .react, .discord, .node, .git{
-    width: 120px;
+    width: 60px;
     margin-top: 20px;
+    margin-bottom: 20 px;
 }
 
 .psql{
