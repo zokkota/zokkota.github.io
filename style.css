@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: lightblue;
+    background-color: #D8AD28;
     background-size: cover;
 }
 
@@ -132,7 +132,7 @@ nav a {
     padding-top: 20px;
     padding-left: 100px;
     float: left;
-    width:250px;
+    width:220px;
     height:250px;
 }
 
