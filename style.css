@@ -363,7 +363,7 @@ footer a{
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: black;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -372,7 +372,7 @@ footer a{
 }
 
 .closeBtn {
-    color: #aaa;
+    color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
