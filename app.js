@@ -1,6 +1,21 @@
 const navButton = document.querySelector(".nav-toggler")
 const nav = document.querySelector("nav")
 
+function openModal() {
+    document.getElementById("infoModal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("infoModal").style.display = "none";
+}
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+    if (event.target == document.getElementById("infoModal")) {
+        document.getElementById("infoModal").style.display = "none";
+    }
+}
+
 nav.addEventListener("click",toggleNav)
 navButton.addEventListener("click", toggleNav)
 
