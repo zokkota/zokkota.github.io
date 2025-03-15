@@ -9,12 +9,34 @@ function closeModal() {
     document.getElementById("infoModal").style.display = "none";
 }
 
+
+
 // Close the modal when clicking outside of it
 window.onclick = function(event) {
     if (event.target == document.getElementById("infoModal")) {
         document.getElementById("infoModal").style.display = "none";
     }
 }
+
+document.querySelectorAll('.competence-btn').forEach(button => {
+    button.addEventListener('click', function() {
+        const info = this.getAttribute('data-info');
+        document.getElementById('competenceInfo').innerText = info;
+        document.getElementById('competenceModal').style.display = 'block';
+    });
+});
+
+function closeCompetenceModal() {
+    document.getElementById('competenceModal').style.display = 'none';
+}
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+    if (event.target == document.getElementById('competenceModal')) {
+        document.getElementById('competenceModal').style.display = 'none';
+    }
+}
+
 
 nav.addEventListener("click",toggleNav)
 navButton.addEventListener("click", toggleNav)
