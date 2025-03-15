@@ -384,7 +384,7 @@ footer a{
 
 .closeBtn:hover,
 .closeBtn:focus {
-    color: black;
+    color: lightgray;
     text-decoration: none;
     cursor: pointer;
 }
