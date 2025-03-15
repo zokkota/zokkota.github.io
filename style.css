@@ -209,6 +209,10 @@ footer a{
     padding-bottom: 50px;
 }
 
+#competenceInfo {
+    color: white;
+}
+
 .ParcoursTitle{
     color: white;
     display: flex;
